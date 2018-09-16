@@ -1,0 +1,43 @@
+body{
+    background-image: url(../images/super-smash-bros.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+img {
+    height: 120px;
+    width: 160px;
+    border-radius: 10px;
+}
+.container{
+    font-family: "Bangers", cursive;
+}
+
+.sectionTitle{ 
+    font-size: 150%;
+    color: black;
+}
+
+.mainTitle{
+    font-size: 250%;
+    text-align: center;
+    color: aliceblue;
+}
+
+.characters {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.characterName{
+    text-align: center;
+    color: aliceblue;
+}
+
+.characterHealth {
+    text-align: center;
+    color: aliceblue;
+}

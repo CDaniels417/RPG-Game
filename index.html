@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Super Smash Bros. RPG Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+    
+</head>
+<body>
+        <div class="container">
+
+            <div class="mainTitle">Super Smash Bros RPG</div>
+            <div class="mainGameArea">
+
+            </div>
+                <!-- Where the characters show up at game start -->
+                <div id="characterSelection">
+                    <div class="sectionTitle">Select Your Character</div>
+                </div>
+
+                <!-- Section for user's character -->
+                <div id="selectedCharacterSection"></div>
+                    <div class="sectionTitle" id="yourChar" >Your Character</div>
+                    <div id="selectedChar"></div>
+
+
+                <div id="readyToFight">
+                    <div class="sectionTitle" id="enemyTitle">Enemies Ready To Fight</div>
+                </div>
+
+                <div class="sectionTitle" id="battleTitle">Battle Arena</div>
+                    <div id="battleArena">
+                        <button class="btn btn-danger" id="strikeButton">Strike</button>
+                    </div>
+
+                <div id="action">
+                    <div class="characterSection">
+                        <div class="sectionTitle" id="defender">Rival</div>
+                            <div id="rival"></div>
+                    </div>
+                </div>
+        </div>
+
+        <div id="gameMessage"></div>
+
+
+
+    
+
+ <script rel="text/javascrpit" src="assets/javascript/game.js"></script>
+</body>
+</html>
