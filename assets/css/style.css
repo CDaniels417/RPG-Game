@@ -41,3 +41,8 @@ img {
     text-align: center;
     color: aliceblue;
 }
+
+#gameMessage, .finishedGame {
+    font-size: 150%;
+    color:black; 
+}
