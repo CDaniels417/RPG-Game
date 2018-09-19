@@ -147,7 +147,7 @@ $(document).ready(function () {
             }
 
             $("#characterSelection").hide();
-            //Repostion choosen character and enemies into playing positions
+            // Repostion choosen character and enemies into playing positions
             // $("#selectedChar").offset({top: 530, left: 520});
             // $("#rival").offset({top: 130, left: 1000});
             // $("#strikeButton").offset({top: 200, left: 800});
