@@ -5,7 +5,7 @@ $(document).ready(function () {
             name: "Mario",
             healthPoints: 120,
             attackPower: 8,
-            imageUrl: "assets/images/Mario.jp2",
+            imageUrl: "assets/images/Mario.png",
             counterAttackPower: 15
         },
         "Link": {
